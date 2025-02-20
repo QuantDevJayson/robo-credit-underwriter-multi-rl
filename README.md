@@ -35,4 +35,14 @@ After training the models, start the API:  uvicorn api:app --reload
 ✅ Improve model interpretability with SHAP values<br>
 ✅ Deploy on AWS/GCP with real-time transaction processing<br>
 
+----------------------------------------------------------------------------
+
+**Tech Stack:**
+- *ML*: Scikit-Learn (Random Forest)<br>
+- *RL*: Stable-Baselines3 (PPO, DQN)<br>
+- *API*: FastAPI<br>
+- *Backtesting & Simulation*: OpenAI Gym<br>
+
+----------------------------------------------------------------------------
+
 🚀 Ready to transform credit underwriting with AI? Let's go! 🎯
