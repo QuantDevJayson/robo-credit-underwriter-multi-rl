@@ -12,17 +12,17 @@ This project implements an AI-powered credit underwriting system that leverages 
 
 #### Model Training Details 
 
-**ML Model (Credit Scoring)** <br>
+**a) ML Model (Credit Scoring)** <br>
 - Algorithm: Random Forest<br>
 - Features Used: Credit Score, Income, Debt-to-Income Ratio, Age, Employment Years, Loan Amount<br>
 - Output: Approval Decision (1 = Approved, 0 = Rejected)<br>
 
-**Reinforcement Learning Agents** <br>
+**b) Reinforcement Learning Agents** <br>
 - PPO (Proximal Policy Optimization) → Focuses on optimizing long-term rewards<br>
 - DQN (Deep Q-Networks) → Handles risk control in loan approvals<br>
 - Custom OpenAI Gym Environment simulates credit applications<br>
 
-**Risk-Aware Decision Policy** <br>
+**c) Risk-Aware Decision Policy** <br>
 - Combines ML & RL to make more informed approval decisions<br>
 - Incorporates Risk Factors such as loan amount & interest rates<br>
 - Prevents High-Risk Lending through reinforcement learning penalties<br>
